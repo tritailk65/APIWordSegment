@@ -1,0 +1,58 @@
+https://colab.research.google.com/drive/16a4XFPioXYzQwyTusmzi1IiGP8kCHT9t?usp=sharing#scrollTo=3_Z-BizMMCjt
+
+go to D:\study\LVUpdate_2021.06.28\PhoBert\APIWordSegment
+run command in gitbash: flask run
+
+
+url ran is
+http://127.0.0.1:5000/keyphrase
+
+
+https://github.com/vncorenlp/VnCoreNLP
+
+Clone Source Code:
+
+Mở terminal hoặc command prompt.
+Điều hướng đến thư mục mà bạn muốn lưu trữ source code.
+Chạy lệnh sau để clone repository về máy tính của bạn:
+sh
+Copy code
+git clone <đường_dẫn_repository>
+Trong đó, <đường_dẫn_repository> là đường dẫn đến repository của bạn.
+
+Tạo và Kích Hoạt Môi Trường Ảo:
+
+Điều hướng đến thư mục chứa repository đã clone.
+Tạo môi trường ảo bằng cách chạy lệnh:
+sh
+Copy code
+python -m venv venv
+Kích hoạt môi trường ảo:
+Trên Windows:
+sh
+Copy code
+venv\Scripts\activate
+Trên macOS và Linux:
+sh
+Copy code
+source venv/bin/activate
+Cài Đặt Các Thư Viện Cần Thiết:
+
+Chạy lệnh sau để cài đặt Flask và các thư viện cần thiết khác:
+sh
+Copy code
+pip install Flask pandas py-vncorenlp
+Thay Đổi Đường Dẫn Trong Tệp app.py:
+
+Mở tệp app.py trong trình soạn thảo văn bản.
+Tìm và thay đổi đường dẫn tuyệt đối E:/Learning/Project_Data/ProjectLaw/Final/API_VNCoreNLP/vncorenlp thành đường dẫn tuyệt đối trên máy tính của bạn.
+Tương tự, thay đổi đường dẫn tuyệt đối E:/Learning/Project_Data/ProjectLaw/Final/API_VNCoreNLP/vietnamese.txt thành đường dẫn tuyệt đối trên máy tính của bạn.
+Chạy Ứng Dụng Flask:
+
+Mở terminal hoặc command prompt.
+Kích hoạt môi trường ảo nếu chưa kích hoạt.
+Điều hướng đến thư mục chứa repository và tệp app.py.
+Chạy lệnh sau để khởi động ứng dụng Flask:
+sh
+Copy code
+flask run
